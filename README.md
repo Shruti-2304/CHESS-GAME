@@ -5,10 +5,15 @@ head Section: This section contains metadata about the document, including the c
 body Section: This section contains the content of the HTML document.
 
 div id="game": This is the main container element for the chess game board.
+
+CSS Structure
+
 Chess Game Board Structure
 Row Structure: Each row is represented by a series of div elements, with the first element being a div class='cellprefix' element containing the row number (1-8).
 
 Square Structure: Each square is represented by a div class='gamecell' element, with an optional grey class to indicate a dark-colored square. The id attribute of each square is in the format x_y, where x is the column letter (a-h) and y is the row number (1-8).
+
+JAVASCRIPT
 
 Turn Indicator:
 The turn indicator is displayed below the chess game board and is represented by a div id='turn' element. The text content of this element is set to "It's Whites Turn!" by default.
